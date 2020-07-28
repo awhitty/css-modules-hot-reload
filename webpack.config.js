@@ -22,8 +22,10 @@ module.exports = {
           "@teamsupercell/typings-for-css-modules-loader",
           {
             loader: "css-loader",
-            options: { modules: true }
-          }
+            options: {
+              modules: { mode: "local", localIdentName: "[path][name]__[local]--[hash:base64:5]" },
+            },
+          },
         ],
       },
     ],
