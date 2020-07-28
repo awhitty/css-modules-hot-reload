@@ -1,0 +1,5 @@
+.App {
+  /* Change the following line and observe that the App component does not
+  re-render when styles are applied */
+  background-color: blue;
+}
